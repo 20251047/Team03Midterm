@@ -9,3 +9,5 @@ workflow-PSW
 https://huggingface.co/datasets/martintomov/rayban-meta-glasses
 
 workflow-YYS
+26.11.11
+약 40장의 라벨링 사진 찾기, 일부 사진 라벨링
