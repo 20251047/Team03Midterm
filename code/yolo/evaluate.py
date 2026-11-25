@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 model = YOLO("best.pt")
-metrics = model.val(data="labeldFiled/data.yaml", split="test") # °æ·Î È®ÀÎ ÇÊ¿ä
+metrics = model.val(data="labeldFiled/data.yaml", split="test") # ê²½ë¡œ í™•ì¸ í•„ìš”
 print("Precision:", metrics.box.mp)
 print("Recall:", metrics.box.mr)
 print("mAP50:", metrics.box.map50)
